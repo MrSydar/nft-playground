@@ -1,5 +1,13 @@
 <svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
     <svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <title>body-0</title>
+
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_20" height="300" width="200" y="80" x="300" stroke-width="5" stroke="#000" fill="#dddddd"/>
+ </g>
+</svg>
+    <svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
  <title>candy-0</title>
 
  <g>
@@ -52,14 +60,6 @@
   <path d="m343.84283,127.6904c2.30768,2.30768 6.92303,4.61537 9.99997,6.15382l3.0769,0l3.0769,-0.76923" id="svg_130" stroke-width="5" stroke="#ffffff" fill="none"/>
   <path d="m405.38101,93.8444c0.76923,0 1.57962,0.35347 3.07693,0c1.67404,-0.39519 2.30768,-1.53846 3.0769,-1.53846l0.76923,-0.76923l1.53845,0" id="svg_131" stroke-width="5" stroke="#ffffff" fill="none"/>
   <path d="m323.0737,129.99808c0,0 -1.53845,1.53845 -3.0769,2.30769l0,0.76923" id="svg_132" stroke-width="5" stroke="#ffffff" fill="none"/>
- </g>
-</svg>
-    <svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
- <title>body-0</title>
-
- <g>
-  <title>Layer 1</title>
-  <rect id="svg_20" height="300" width="200" y="80" x="300" stroke-width="5" stroke="#000" fill="#dddddd"/>
  </g>
 </svg>
     <svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
