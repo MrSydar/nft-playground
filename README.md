@@ -1,5 +1,5 @@
 # svg-combiner
-This tool allows you to create all possible permutations of your svg assets.
+This tool allows you to create all possible permutations of your svg assets. For the example results, look into the `output` directory
 
 # How to use
 
