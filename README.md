@@ -1,5 +1,5 @@
 # svg-combiner
-This tool allows you to create all possible permutations of your svg assets. For the example results, look into the `example/output` directory
+This tool allows you to create all possible permutations of your SVG assets. For the example results, look into the `example/output` directory
 
 # How to use
 
@@ -17,13 +17,13 @@ Template file there should contain placeholders. Example of template file:
 </svg>
 ```
 
-For each placeholder, there must be a corresponding assets directory with the same name.
+For each placeholder, there must be a corresponding assets' directory with the same name.
 For example, for `<!-- body -->` placeholder, there must be a `body` folder.
 
 Next, put an arbitrary number of `svg` assets into each asset directory.
 Assets should be enumerated from zero like `0.svg`, `1.svg`, etc.
 
-### Example structrue:
+### Example structure:
 
     .
     ├── body                   # Directory with first type assets
