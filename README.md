@@ -1,5 +1,5 @@
 # svg-combiner
-This tool allows you to create all possible permutations of your svg assets. For the example results, look into the `output` directory
+This tool allows you to create all possible permutations of your svg assets. For the example results, look into the `example/output` directory
 
 # How to use
 
@@ -37,7 +37,7 @@ Assets should be enumerated from zero like `0.svg`, `1.svg`, etc.
     ├── ...
     └── template.svg           # Template file
     
-There is an example available in the `assets` directory of the current project.
+There is an example available in the `example/assets` directory of the current project.
  
 ## Run
 Run the tool with the next parameters: 
@@ -46,5 +46,5 @@ Run the tool with the next parameters:
 
 Example:
 ```
-go run . -a ./assets/ice-cream -o ./output`
+go run . -a ./example/assets/ice-cream -o ./example/output
 ``` 
