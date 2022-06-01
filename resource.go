@@ -6,13 +6,6 @@ import (
 	"strings"
 )
 
-type metadata struct {
-	Name        string         `json:"name"`
-	Descriction string         `json:"description"`
-	Image       string         `json:"image"`
-	Attributes  map[string]any `json:"attributes"`
-}
-
 func createResources(assetDirPath string, outputDirPath string) error {
 	parts, err := getAssetResources(assetDirPath)
 	if err != nil {
@@ -40,6 +33,13 @@ func createResources(assetDirPath string, outputDirPath string) error {
 		if err := os.WriteFile(outputDirPath+"/"+fmt.Sprintf("%d.svg", count), []byte(svg), 0644); err != nil {
 			return fmt.Errorf("can't write file: %v", err)
 		}
+
+		// metadata := metadata{
+		// 	Name:        babbler.Babble(),
+		// 	Descriction: "Cool ice cream",
+		// 	Image:       fmt.Sprintf("ipfs://YOUR_ASSET_CID"),
+		// }
+
 		count++
 		return nil
 	}
